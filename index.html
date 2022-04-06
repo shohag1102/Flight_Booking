@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ticket Booking</title>
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>Flight Ticket Booking</h1>
+    </div>
+    <section class="form_section">
+      <form action="chechout_page.html">
+        <div class="container">
+          <div class="part1">
+            <div class="from">
+              <span>From</span> <br />
+              <input type="text" placeholder="Type Destination City"  id="start"/>
+            </div>
+            <div class="to">
+              <span>To</span> <br />
+              <input type="text"  id="end" placeholder="Type Destination City" />
+            </div>
+          </div>
+          <div class="part2">
+            <div class="depart">
+              <span>Depart</span> <br />
+              <input type="date"  id="depart" />
+            </div>
+            <div class="return">
+              <span>Return</span> <br />
+              <input type="date"  id="return"/>
+            </div>
+            <div class="class">
+              <span>Class</span> <br />
+              <select  id="classType">
+                <option value="Economy" selected>Economy</option>
+                <option value="Business">Business</option>
+                <option value="First">First</option>
+              </select>
+            </div>
+          </div>
+          <div class="part3">
+            <div class="adult">
+              <span>Adult(12+ yrs)</span> <br>
+              <input type="number" name="" id="adult" value="1">
+            </div>
+            <div class="child">
+              <span>Child(2-11 yrs)</span> <br>
+              <input type="number" name="" id="child" value="0">
+            </div>
+          </div>
+          <div class="submitBtn">
+            <button class="submit">Search Flight
+            </button>
+          </div>
+        </div>
+      </form>
+    </section>
+    <footer>
+      &copy 2016 Flight Ticket Booking, All Rights Reserved | Design by Shohag 
+    </footer>
+
+    <!-- js -->
+    <script src="./index.js"></script>
+  </body>
+</html>

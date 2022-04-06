@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./checkoout.css">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="orderBox">
+            <h1>Flight Information</h1>
+            <p>From :<span id="from"></span>
+            </p>
+            <p>To :<span id="to"></span>
+            </p>
+            <p>Journey Date : <span id="journeyDate"></span>
+            </p>
+            <p>Return Date : <span id="returnDate"></span>
+            </p>
+            <p>Class Type : <span id="classType"></span>
+            </p>
+            <h2>Order Summary</h2>
+            <p>Adult <span id="adultPrice"></span></p>
+            <p>Children <span id="childrenPrice"></span></p>
+            <p>Total(USD) <span id="totalPrice"></span></p>
+            <form action="confirmation.html">
+                <button class="btn">
+                    Confirm Order
+                </button>
+            </form>
+        </div>
+
+    </div>
+
+
+
+    <!-- js -->
+    <script src="./checkout.js"></script>
+</body>
+</html>
